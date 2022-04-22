@@ -375,7 +375,7 @@ img {
 
 .team-soc-link:hover,
 .team-soc-link:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   fill: var(--hero-title-color);
 }
 
@@ -588,4 +588,8 @@ img {
 .btn-current {
   color: var(--hero-title-color);
   background-color: var(--accent-color);
+}
+
+.portfolio-link {
+  display: block;
 }
